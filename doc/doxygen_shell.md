@@ -23,7 +23,7 @@ doxygen -g temp_Doxyfile > /dev/null
 
 cat << EOF >> temp_Doxyfile
 # 基本設定
-PROJECT_NAME           = "PCC Assembly Source Code Analysis"
+PROJECT_NAME           = "VZ editor Assembly Source Code Analysis"
 OUTPUT_DIRECTORY       = ${OUTPUT_DIR}
 OUTPUT_LANGUAGE        = Japanese
 INPUT                  = ${TARGET_DIR}
